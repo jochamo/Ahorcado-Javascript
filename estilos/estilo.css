@@ -1,0 +1,90 @@
+body {
+
+}
+
+#main {
+
+}
+
+#header{
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+  margin-bottom: 25px;
+  padding-left: 20px;
+}
+
+#container {
+  width: 700px;
+  margin: 0px auto;
+  text-align: left;
+}
+
+#sidebar {
+  width: 450px;
+  padding: 10px;
+  float: left;
+}
+
+#footer {
+  clear: both;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+}
+
+.fleft {
+  float:left;
+}
+.fright {
+  float:right;
+  padding-right: 20px;
+}
+.fcenter {
+  float:none;
+  text-align:center;
+}
+
+.textoGrande{
+  font-size: 3.2em;
+  font-family: fantasy;
+}
+.textoMediano{
+  font-size: 1.2em;
+  font-family: fantasy;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 5px;
+    width: 50px;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+}
+.button:active {
+  background-color: #FFF;
+  color: #4CAF50;
+}
+.button:hover {
+    background-color: #FFF;
+    color: #4CAF50;
+}
+.buttonAceptar {
+    background-color: #088A29;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 5px;
+    width: 215px;
+    font-size: 16px;
+    border-radius: 12px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+
+<head>
+  <title>Ahorcado</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="stylesheet" type="text/css" href="estilos/estilo.css" media="screen" />
+  <script type="text/javascript" src="js/ahorcado.js"></script>
+</head>
+
+<body>
+
+  <div id="container">
+
+    <div id="header">
+      <h1>El juego del Ahorcado</h1>
+    </div>
+
+    <div id="sidebar">
+      <div class="textoGrande" id="haGanado"></div>
+      <div class="textoMediano" id="solucionJuego"></div>
+      <p><img id="munyeco" src="imagenes/hangmagnet.jpg" alt="Ahorcado" width="400" /></p>
+      <div class="textoGrande" id="palabraJuego"></div>
+      <p>&nbsp;</p>
+    </div>
+
+    <div id="main">
+
+      <form name="ahorcado">
+
+        <input class="button" type="button" name="botonA" id="botona" value="A" onclick="jugarLetra('a')" />
+        <input class="button" type="button" name="botonB" id="botonb" value="B" onclick="jugarLetra('b')" />
+        <input class="button" type="button" name="botonC" id="botonc" value="C" onclick="jugarLetra('c')" />
+        <input class="button" type="button" name="botonD" id="botond" value="D" onclick="jugarLetra('d')" />
+        <input class="button" type="button" name="botonE" id="botone" value="E" onclick="jugarLetra('e')" />
+        <input class="button" type="button" name="botonF" id="botonf" value="F" onclick="jugarLetra('f')" />
+        <input class="button" type="button" name="botonG" id="botong" value="G" onclick="jugarLetra('g')" />
+        <input class="button" type="button" name="botonH" id="botonh" value="H" onclick="jugarLetra('h')" />
+        <input class="button" type="button" name="botonI" id="botoni" value="I" onclick="jugarLetra('i')" />
+        <input class="button" type="button" name="botonJ" id="botonj" value="J" onclick="jugarLetra('j')" />
+        <input class="button" type="button" name="botonK" id="botonk" value="K" onclick="jugarLetra('k')" />
+        <input class="button" type="button" name="botonL" id="botonl" value="L" onclick="jugarLetra('l')" />
+        <input class="button" type="button" name="botonM" id="botonm" value="M" onclick="jugarLetra('m')" />
+        <input class="button" type="button" name="botonN" id="botonn" value="N" onclick="jugarLetra('n')" />
+        <input class="button" type="button" name="botonO" id="botono" value="O" onclick="jugarLetra('o')" />
+        <input class="button" type="button" name="botonP" id="botonp" value="P" onclick="jugarLetra('p')" />
+        <input class="button" type="button" name="botonQ" id="botonq" value="Q" onclick="jugarLetra('q')" />
+        <input class="button" type="button" name="botonR" id="botonr" value="R" onclick="jugarLetra('r')" />
+        <input class="button" type="button" name="botonS" id="botons" value="S" onclick="jugarLetra('s')" />
+        <input class="button" type="button" name="botonT" id="botont" value="T" onclick="jugarLetra('t')" />
+        <input class="button" type="button" name="botonU" id="botonu" value="U" onclick="jugarLetra('u')" />
+        <input class="button" type="button" name="botonV" id="botonv" value="V" onclick="jugarLetra('v')" />
+        <input class="button" type="button" name="botonW" id="botonw" value="W" onclick="jugarLetra('w')" />
+        <input class="button" type="button" name="botonX" id="botonx" value="X" onclick="jugarLetra('x')" />
+        <input class="button" type="button" name="botonY" id="botony" value="Y" onclick="jugarLetra('y')" />
+        <input class="button" type="button" name="botonZ" id="botonz" value="Z" onclick="jugarLetra('z')" />
+
+        <br /><br />
+
+        <input class="buttonAceptar" type="button" value="Empezar" onclick="iniciarJuego()" />
+
+      </form>
+
+      <p><img id="arriba" src="imagenes/arriba_2.png" alt="Ahorcado" width="50" /></p>
+      <div class="textoMediano" id="pulsaEmpezar"></div>
+
+    </div>
+
+    <div id="footer">
+      <div class="fleft">2º SMX</div>
+    	<div class="fright">IES La Sènia</div>
+   	  <div class="fcenter">Aplicaciones Web: JavaScript</div>
+    </div >
+
+  </div >
+
+</body>
+
+</html>
